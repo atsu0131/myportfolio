@@ -1,0 +1,56 @@
+//////////////////////////////////////////////////
+// SETTINGS
+
+// fonts
+$font-jp: 'Noto Sans JP', "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "Helvetica Neue","Helvetica", "Arial", sans-serif;
+$font-en: 'Pacifico',"Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+// colors
+$color-txt:#2d2421;
+$color-txt-grey: #b6aeab;
+
+$color-main:#f7785e;
+$color-footer: #2d2421;
+$color-bre: #e3d5d1;
+
+// sns
+$color-facebook:#3b5998;
+$color-twitter:#55acee;
+$color-google:#dd4b39;
+$color-hatena:#008fde;
+$color-line:#00b900;
+
+// others
+$header-height-sp: 64px;
+$header-height-pc: 70px;
+
+// pcのみ
+@mixin break-pc {
+	@media screen and (min-width:1025px) {
+		@content;
+	}
+}
+// pcとtab共通
+@mixin break-pc-tab {
+	@media screen and (min-width:769px) {
+		@content;
+	}
+}
+// tabとsp共通
+@mixin break-tab-sp {
+	@media screen and (max-width:1024px) {
+		@content;
+	}
+}
+// tabのみ
+@mixin break-tab {
+	@media screen and (max-width:1024px) and (min-width:769px) {
+		@content;
+	}
+}
+// spのみ
+@mixin break-sp {
+	@media screen and (max-width:768px) {
+		@content;
+	}
+}

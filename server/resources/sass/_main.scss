@@ -1,0 +1,34 @@
+
+.main{
+  width: 100%;
+}
+  
+
+
+.bg_test-text {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.bg_test {
+    text-align:  center;
+    padding:  100px;
+    background-image: url(../img/cat.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+@include break-pc {
+  .bg_test-text {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  .bg_test {
+      text-align:  center;
+      padding:  250px;
+      background-image: url(../img/cat.png);
+      background-position: center;
+      background-size: 100%;
+  }
+}

@@ -49,11 +49,28 @@
 </nav>
 <!-- /sp-gnav -->
 
+<main>
+  <section>
 
-{{-- <img class="img-mv" src="{{ asset('/img/aaa.png') }}" alt=""> --}}
+  </section>
+
+
+
+
+
+  
+</main>
+
+
 <script src="{{ mix('js/app.js') }}"></script>
 <script src="{{ mix('js/jquery.js') }}"></script>
-<script>
-  console.log("aaaa")
-</script>
+  <script>
+    $('#mainslider__slick').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 800,
+      prevArrow: '<button class="slick-prev slick-arrow" type="button"><i class="fa fa-angle-left angle-size" aria-hidden="true"></i></button>',
+      nextArrow: '<button class="slick-next slick-arrow" type="button"><i class="fa fa-angle-right angle-size" aria-hidden="true"></i></button>',
+    });
+  </script>
 @endsection

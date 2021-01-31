@@ -11189,7 +11189,7 @@ fieldset {
 }
 
 .header .logo {
-  height: 74px;
+  height: 70px;
 }
 
 .header .logo img {
@@ -11381,6 +11381,142 @@ fieldset {
 @media screen and (min-width: 1025px) {
   .pc-gnav {
     display: block;
+  }
+}
+
+/* Slider */
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: '';
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.main {
+  width: 100%;
+}
+
+.bg_test-text {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bg_test {
+  text-align: center;
+  padding: 100px;
+  background-image: url(/images/cat.png?249dad87b6e34fe135f83b53a5126c2c);
+  background-position: center;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+  .bg_test-text {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .bg_test {
+    text-align: center;
+    padding: 250px;
+    background-image: url(/images/cat.png?249dad87b6e34fe135f83b53a5126c2c);
+    background-position: center;
+    background-size: 100%;
   }
 }
 

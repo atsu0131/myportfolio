@@ -15,6 +15,7 @@
 <meta property="og:site_name" content="{{$title}}" />
 <meta property="og:locale" content="ja_JP" />
 <meta name="twitter:card" content="">
+
 <title>{{$title}}</title>
 @section('content')
 <header class="header">
@@ -49,8 +50,39 @@
 </nav>
 <!-- /sp-gnav -->
 
-<main>
-  <section>
+<main class="main_skills">
+  <section class="skills">
+    <div class="wrapper">
+      <h2 class="top__title">使用スキル</h2>
+      <div class="skill_wrapper">
+        <div class="cards">
+          <div class="header__card">
+            <p>HTML</p>
+            aaa
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="cards">
+          <div class="header__card">
+            <p>HTML</p>
+            aaa
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="cards">
+          <div class="header__card">
+            <p>HTML</p>
+            aaa
+            <img src="" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <section  class="history">
+
 
   </section>
 
@@ -58,19 +90,15 @@
 
 
 
-  
 </main>
+
+<footer>
+  <p>xxx</p>
+</footer>
 
 
 <script src="{{ mix('js/app.js') }}"></script>
 <script src="{{ mix('js/jquery.js') }}"></script>
   <script>
-    $('#mainslider__slick').slick({
-      autoplay: true,
-      autoplaySpeed: 2000,
-      speed: 800,
-      prevArrow: '<button class="slick-prev slick-arrow" type="button"><i class="fa fa-angle-left angle-size" aria-hidden="true"></i></button>',
-      nextArrow: '<button class="slick-next slick-arrow" type="button"><i class="fa fa-angle-right angle-size" aria-hidden="true"></i></button>',
-    });
   </script>
 @endsection

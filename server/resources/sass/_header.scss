@@ -207,6 +207,43 @@
   }
 }
 
+
+.skill_wrapper{
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.main_skills{
+  padding-top: $header-height-sp;
+  max-height: auto;
+
+}
+
+.top__title{
+  margin-top: 50px;
+  height: 100px;
+  max-width: 100%;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.cards{
+  background-color: #fff;
+  border: dashed;
+  width: 100px;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+footer{
+  height: auto;
+}
+
+
 @include break-pc {
   .pc-gnav {
     display: block;

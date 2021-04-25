@@ -14,11 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+  return view('profile');
+});
+
 Auth::routes();
 
-Route::get('/', function () {
-    return view('profile');
-});
+
+
+// Route::get('/', function () {
+//     return view('vendor');
+// });
 
 
 

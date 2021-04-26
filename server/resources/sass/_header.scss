@@ -214,6 +214,9 @@
   justify-content: center;
   -webkit-align-items: center;
   align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .main_skills{
@@ -233,7 +236,6 @@
 
 .cards{
   background-color: #fff;
-  border: dashed;
   width: 100px;
   justify-content: space-between;
   margin-left: 10px;

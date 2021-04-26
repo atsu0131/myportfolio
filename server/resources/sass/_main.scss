@@ -2,8 +2,10 @@
 .main{
   width: 100%;
 }
-  
 
+.text-center{
+  text-align: center;
+}
 
 .bg_test-text {
   display: inline-block;
@@ -16,6 +18,20 @@
     background-image: url(../img/cat.png);
     background-position: center;
     background-size: 100%;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.image__wrap{
+  width: 100px;
+  height: 100px;
+}
+
+.padding_up_down{
+  margin-bottom: 30px;
 }
 
 @include break-pc {

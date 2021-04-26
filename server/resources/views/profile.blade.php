@@ -50,33 +50,64 @@
 </nav>
 <!-- /sp-gnav -->
 
+
+
 <main class="main_skills">
+  <img src="{{ asset('/img/shutterstock_1426245785.jpg') }}"  alt="">
   <section class="skills">
     <div class="wrapper">
       <h2 class="top__title">使用スキル</h2>
+      <p class="text-center padding_up_down">技術要件に応じて、以下の言語を使用いたします。</p>
       <div class="skill_wrapper">
         <div class="cards">
           <div class="header__card">
-            <p>HTML</p>
-            aaa
-            <img src="" alt="">
+            <div class="image__wrap">
+              <img src="{{ asset('/img/html-5.png') }}" alt="">
+            </div>
           </div>
         </div>
         <div class="cards">
           <div class="header__card">
-            <p>HTML</p>
-            aaa
-            <img src="" alt="">
+            <div class="image__wrap">
+              <img src="{{ asset('/img/html-5.png') }}" alt="">
+            </div>
           </div>
         </div>
         <div class="cards">
           <div class="header__card">
-            <p>HTML</p>
-            aaa
-            <img src="" alt="">
+            <div class="image__wrap">
+              <img src="{{ asset('/img/html-5.png') }}" alt="">
+            </div>
           </div>
         </div>
-      </div>
+        <div class="cards">
+          <div class="header__card">
+            <div class="image__wrap">
+              <img src="{{ asset('/img/html-5.png') }}" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="header__card">
+            <div class="image__wrap">
+              <img src="{{ asset('/img/html-5.png') }}" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="header__card">
+            <div class="image__wrap">
+              <img src="{{ asset('/img/html-5.png') }}" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="header__card">
+            <div class="image__wrap">
+              <img src="{{ asset('/img/html-5.png') }}" alt="">
+            </div>
+          </div>
+        </div>
     </div>
 
 

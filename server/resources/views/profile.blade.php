@@ -113,8 +113,16 @@
 
   </section>
   <section  class="history">
+  <p>制作実績</p>
 
+  </section>
 
+  <section>
+    <p>プロフィール</p>
+    <div class="birth">
+      1990/4/4
+    </div>
+    <p>サーバサイドエンジニア</p>
   </section>
 
 
